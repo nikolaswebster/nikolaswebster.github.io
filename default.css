@@ -1,0 +1,176 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+
+* {
+  font-family: Garamond, serif;
+}
+
+a {
+color: #095291;
+}
+
+h1 {
+  font-size: 28px;
+  margin: 0 0 20px 0;
+  font-weight:normal;
+  letter-spacing: 1px;
+}
+
+h1 a {
+  color: #000;
+  text-decoration: none;
+}
+
+h1 a:hover {
+  text-decoration: underline;
+}
+
+
+body {
+  margin: 80px 30px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 24px;
+  text-align: justify;
+}
+
+p a:hover {
+   color: grey;
+  font-size: 18px;
+}
+
+.home-content {
+  max-width: 920px;
+  min-width: 800px;
+  margin: auto auto;
+  float: center;
+}
+
+.content {
+  max-width: 750px;
+  min-width: 650px;
+  margin: auto auto;
+  float: center;
+}
+
+
+ul, ol {
+  padding-left: 20px;
+}
+
+li {
+  padding-bottom: 0px;
+}
+
+nav {
+  float: right;
+  text-align: left;
+  display: inline-block;
+  text-align: center;
+  border: 2px solid #000000;
+  border-width: 1px 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+
+nav li {
+  display: inline-block;
+  padding: 0;
+}
+
+nav li:first-child a {
+  border-left: 1px solid #000000;
+}
+
+nav a {
+  border-right: 1px solid #000000;
+  color: black;
+  font-size: 13px;
+  text-decoration: none;
+  padding: 6px 12px;
+  display: block;
+}
+
+nav a:hover {
+  background-color: #efefef;
+}
+
+.column-t {
+  float: left;
+  width: 50%;
+}
+
+.column {
+  float: left;
+  width: 33%;
+}
+
+.column-r {
+  float: left;
+  width: 33%;
+  padding: 1px;
+  text-align:right;
+}
+
+.column1 {
+  float: left;
+  width: 60%;
+  padding: 1px;
+}
+
+.column2 {
+  text-align: right;
+  float: right;
+  width: 25%;
+  padding: 20px;
+}
+.column3 {
+  text-align: right;
+  float: right;
+  width: 50%;
+  padding: 0px;
+}
+
+.column-year {
+  float: left;
+  width: 12%;
+  padding: 0px;
+  margin: auto auto;
+}
+
+.column-ref {
+  float: left;
+  width: 88%;
+  padding: 0px;
+  margin: auto auto;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.text-box {
+  font-size: 18px;
+  line-height: 24px;
+  text-align: justify;
+  float: left; /* or float: right; */
+  width: 300px; /* Set a width for your box */
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-right: 35px; /* Add some space between the box and surrounding text */
+    }
