@@ -141,7 +141,7 @@ nav a:hover {
   float: left;
   width: 12%;
   padding: 0px;
-  margin: auto auto;
+  margin: auto 10px;
 }
 
 .column-ref {
@@ -173,4 +173,5 @@ nav a:hover {
   padding: 10px;
   border: 1px solid #ccc;
   margin-right: 35px; /* Add some space between the box and surrounding text */
+
     }
