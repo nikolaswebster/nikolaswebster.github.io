@@ -138,16 +138,15 @@ nav a:hover {
 }
 
 .column-year {
-  text-align: left;
   float: left;
   width: 12%;
   padding: 0px;
-  margin: auto auto;
+  margin: auto 10px;
 }
 
 .column-ref {
   float: left;
-  width: 88%;
+  width: 80%;
   padding: 0px;
   margin: auto auto;
 }
@@ -176,4 +175,5 @@ nav a:hover {
   margin-right: 35px; /* Add some space between the box and surrounding text */
 
     }
+
 
