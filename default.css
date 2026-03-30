@@ -56,7 +56,10 @@ p a:hover {
 
 
 ul, ol {
-  padding-left: 20px;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: justify;
+  padding-left: 10px;
 }
 
 li {
