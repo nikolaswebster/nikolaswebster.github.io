@@ -63,6 +63,9 @@ ul, ol {
 }
 
 li {
+  font-size: 18px;
+  line-height: 24px;
+  text-align: justify;
   padding-bottom: 0px;
 }
 
