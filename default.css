@@ -71,8 +71,11 @@ li {
   line-height: 24px;
   text-align: justify;
   padding-bottom: 0px;
-  margin-bottom: 8px;
 }
+
+ ul li, ol li {
+    margin-bottom: 8px;
+  }
 
 nav {
   float: right;
