@@ -73,10 +73,6 @@ li {
   padding-bottom: 0px;
 }
 
- ul li, ol li {
-    margin-bottom: 8px;
-  }
-
 nav {
   float: right;
   text-align: left;
@@ -115,6 +111,10 @@ nav a {
 nav a:hover {
   background-color: #efefef;
 }
+
+ ul li, ol li {
+    margin-bottom: 8px;
+  }
 
 .column-t {
   float: left;
