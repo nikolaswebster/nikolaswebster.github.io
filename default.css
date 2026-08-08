@@ -4,6 +4,10 @@ body {
   font-family: 'Inter', 'Nanum Gothic', sans-serif;
 }
 
+.font-secondary {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
 a {
 color: #095291;
 }
